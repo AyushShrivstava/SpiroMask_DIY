@@ -1,6 +1,6 @@
 # Feature Extraction for SpiroMask Audio Analysis
 
-The Jupyter Notebook `Feature_Extractor` provides the feature extraction pipeline specifically tailored for analyzing audio data captured for the SpiroMask. The notebook facilitates the extraction of various features from the SpiroMask audio signals, enabling in-depth analysis of respiratory patterns and lung health estimation.
+The Jupyter Notebook `Feature_Extractor.ipynb` provides the feature extraction pipeline specifically tailored for analyzing audio data captured for the SpiroMask. The notebook facilitates the extraction of various features from the SpiroMask audio signals, enabling in-depth analysis of respiratory patterns and lung health estimation.
 
 ## Features Included
 
@@ -34,6 +34,6 @@ To utilize the feature extraction pipeline for SpiroMask audio analysis, follow 
 
 #
 
-The feature extraction pipeline in this notebook provides a powerful tool for analyzing SpiroMask audio data, facilitating the exploration of respiratory patterns and supporting accurate lung health estimation. The extracted features can be used to train machine learning models for respiratory analysis and lung health estimation, as demonstrated further under folder `4.ML_Model`.
+The feature extraction pipeline in this notebook provides a powerful tool for analyzing SpiroMask audio data, facilitating the exploration of respiratory patterns and supporting accurate lung health estimation. The extracted features can be used to train machine learning models for respiratory analysis and lung health estimation, as demonstrated in this repository (present in `ML_Model` folder ).
 
 #
