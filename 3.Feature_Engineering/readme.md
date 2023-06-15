@@ -34,6 +34,6 @@ To utilize the feature extraction pipeline for SpiroMask audio analysis, follow 
 
 #
 
-The feature extraction pipeline in this notebook provides a powerful tool for analyzing SpiroMask audio data, facilitating the exploration of respiratory patterns and supporting accurate lung health estimation. By leveraging these extracted features, researchers, healthcare professionals, and developers can gain valuable insights into respiratory dynamics and the effectiveness of the SpiroMask.
+The feature extraction pipeline in this notebook provides a powerful tool for analyzing SpiroMask audio data, facilitating the exploration of respiratory patterns and supporting accurate lung health estimation. The extracted features can be used to train machine learning models for respiratory analysis and lung health estimation, as demonstrated further under folder `4.ML_Model`.
 
 #
