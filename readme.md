@@ -6,7 +6,7 @@ This repository introduces SpiroMask, a system that incorporates a microphone in
 
 The repository is organized into Five main folders:
 
-1. **`.Configure_NanoSenseBLE`** : This folder contains resources and instructions to configure the Arduino Nano Sense BLE board for Edge Impulse. It includes setup documentation, firmware modification files, and pre-built firmware options. Easily configure your board for seamless integration with Edge Impulse.
+1. **`Configure_NanoSenseBLE`** : This folder contains resources and instructions to configure the Arduino Nano Sense BLE board for Edge Impulse. It includes setup documentation, firmware modification files, and pre-built firmware options. Easily configure your board for seamless integration with Edge Impulse.
 
 2. **`Data`**: This folder contains essential raw data files for the SpiroMask project. It includes two subfolders:
    - **`Ground_Truth`**: This subfolder holds data related to the participants who took part in the SpiroMask project. It includes information such as age, weight, height, FEV1, FVC, PEF, lung ailments, and more.
