@@ -15,3 +15,5 @@ The folder consists of the following models:
 Both models have been trained and evaluated using the LOOCV technique. LOOCV is a resampling method where each data point is iteratively used as the validation set, while the remaining data is used for training. This process is repeated for every data point, resulting in a robust evaluation of the model's performance.
 
 LOOCV offers several advantages, including reducing bias and providing a reliable estimate of the model's generalization performance. By using LOOCV, we can effectively assess the models' accuracy and make informed decisions about their suitability for real-world applications.
+
+# 
