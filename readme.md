@@ -4,8 +4,6 @@ This repository introduces SpiroMask, a system that incorporates a microphone in
 
 ![Spirometry](./intro.jpg)
 
-<img src = "./intro.jpg">
-
 The repository is organized into four main folders:
 
 1. **Data**: This folder contains essential raw data files for the SpiroMask project. It includes two subfolders:
