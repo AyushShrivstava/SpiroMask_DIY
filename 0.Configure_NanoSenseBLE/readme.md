@@ -20,7 +20,7 @@
 
 3. Build and flash the modified firmware to your Arduino Nano board by following the instructions provided in the [firmware-arduino-nano-33-ble-sense](https://github.com/edgeimpulse/firmware-arduino-nano-33-ble-sense) repository. If you encounter any issues, it is recommended to use the Linux path for building the firmware.
 
-Alternatively, you can use the pre-built firmware files provided in the "2.PreBuilt_Firmware" folder, where different gain values have been set. Flashing these files directly to your Arduino Nano board can save you the trouble of modifying and building the firmware.
+Alternatively, you can use the pre-built firmware files provided in the [2.PreBuilt_Firmware](https://github.com/AYUSHs799/SpiroMask_DIY/tree/main/0.Configure_NanoSenseBLE/2.PreBuilt_Firmware) folder, where different gain values have been set. Flashing these files directly to your Arduino Nano board can save you the trouble of modifying and building the firmware.
 
 By following these steps, you will be able to configure your Arduino Nano Sense BLE to work seamlessly with Edge Impulse.
 
