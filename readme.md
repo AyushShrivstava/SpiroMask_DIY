@@ -2,8 +2,9 @@
 
 This repository introduces SpiroMask, a system that incorporates a microphone into consumer-grade masks for continuous lung health monitoring. By capturing audio signals of the user's breathing and extracting relevant features, SpiroMask enables the estimation of lung health using machine learning. It offers a low-cost, portable, and user-friendly solution for regular lung health monitoring, addressing the global need for prognoses and early detection of respiratory illnesses.
 
-![Spirometry](intro.jpg)
-<img src = "intro.jpg">
+![Spirometry](./intro.jpg)
+
+<img src = "./intro.jpg">
 
 The repository is organized into four main folders:
 
