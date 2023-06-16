@@ -1,27 +1,27 @@
-# Configuring Arduino Nano Sense BLE to work with Edge Impulse.
+# Configuring Arduino Nano Sense BLE
 
-## What is edge impulse?
+## What is Edge Impulse?
 
-With Edge Impulse, you can collect sensor data from edge devices, preprocess and label the data, and then use it to train machine learning models. The platform supports a wide range of sensor inputs, including accelerometers, gyroscopes, magnetometers, audio, and more. It also offers various signal processing and feature extraction capabilities to derive meaningful insights from the collected data.
+ Edge Impulse is a platform that enables you to collect sensor data from edge devices, preprocess and label the data, and train machine learning models. It supports various sensors like accelerometers, gyroscopes, magnetometers, and audio.
 
-## Setting up Arduino Nano Sense BLE.
+## Configuring Arduino Nano Sense BLE to work with Edge Impulse
 
-Follow the steps available on Edge Impulse website to configure your Arduino Nano Sense BLE to work with Edge Impulse.
-link to the website -> [Arduino Nano 33 BLE Sense](https://docs.edgeimpulse.com/docs/development-platforms/officially-supported-mcu-targets/arduino-nano-33-ble-sense)
+1. To set up your Arduino Nano Sense BLE with Edge Impulse, follow the instructions provided on the Edge Impulse website. You can find specific guidance for the Arduino Nano 33 BLE Sense [here](https://docs.edgeimpulse.com/docs/development-platforms/officially-supported-mcu-targets/arduino-nano-33-ble-sense).
 
-## Setting the gain of the Arduino Nano BLE sense microphone.
+2. Adjusting the gain of the Arduino Nano BLE Sense microphone may be necessary to prevent audio clipping. This can be done by modifying the Edge Impulse firmware for Arduino Nano 33 BLE Sense.
 
-We had to change the gain of the Microphone as the gain set in ```Edge Impulse firmware for Arduino Nano 33 BLE Sense``` was too high for our purposes and Audio samples were getting clipped. To change the gain of the microphone, we had to change the value of ```MIC_GAIN``` in ```Edge Impulse firmware for Arduino Nano 33 BLE Sense``` to 40 (or 30). This can be done by following the steps below:
+   - Obtain the Edge Impulse firmware from their open-source repository [firmware-arduino-nano-33-ble-sense](https://github.com/edgeimpulse/firmware-arduino-nano-33-ble-sense).
 
-1. Get the Edge Impulse firmware from their open sourse repository [firmware-arduino-nano-33-ble-sense](https://github.com/edgeimpulse/firmware-arduino-nano-33-ble-sense). The repository is also mentioned in the [Arduino Nano 33 BLE Sense](https://docs.edgeimpulse.com/docs/development-platforms/officially-supported-mcu-targets/arduino-nano-33-ble-sense) page of Edge Impulse website. (This information is provided here just in case the link changes in future.) A version of this also available in this repository in the folder [1.Arduino_Firmware]()
+   - Locate the file "ei_microphone.cpp" in the "src/sensors" folder of the firmware.  
 
-2. To set the gain of the hardware microphone, open the file ```"1.Arduino_Firmware\src\sensors\ei_microphone.cpp"``` in a text editor and change the value of ```PDM.setGain``` to 40 (or 30). Please be aware there will twice such lines in the file. Change both of them. 
+   - Open the file in a text editor and change the value of "PDM.setGain" to 40. Update both occurrences of this line in the file. 
 
+   - Save the file after making the changes.   
 
-3. Follow the steps mentioned in the [firmware-arduino-nano-33-ble-sense](https://github.com/edgeimpulse/firmware-arduino-nano-33-ble-sense) repository to build and flash the firmware. It is advised to follow the linux path as windows version of the build script did not work for us.
+3. Build and flash the modified firmware to your Arduino Nano board by following the instructions provided in the [firmware-arduino-nano-33-ble-sense](https://github.com/edgeimpulse/firmware-arduino-nano-33-ble-sense) repository. If you encounter any issues, it is recommended to use the Linux path for building the firmware.
 
-    **NOTE**: We have provided a few copies of the file with the gain set to various values in the folder [2.PreBuilt_Firmware](). You can use these files and directly flash them to the Arduino Nano board.
+Alternatively, you can use the pre-built firmware files provided in the "2.PreBuilt_Firmware" folder, where different gain values have been set. Flashing these files directly to your Arduino Nano board can save you the trouble of modifying and building the firmware.
 
+By following these steps, you will be able to configure your Arduino Nano Sense BLE to work seamlessly with Edge Impulse.
 
-
-### **Enjoy working with Edge Impulse.**
+### **Enjoy working with Edge Impulse!**
