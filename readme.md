@@ -10,7 +10,7 @@ This GitHub repository, SpiroMask_DIY, is dedicated to the SpiroMask project, wh
    - **Visualise_Waveforms.ipynb**: Visualizes the raw waveforms of the audio files in the time domain.
    - **Visualise_Bandpass.ipynb**: Visualizes the bandpass filtered waveforms of the audio files.
    - **Visualise_Envelope.ipynb**: Visualizes the envelope of the bandpass filtered audio files.
-   - **Visualise_Autoclipping.ipynb**: Visualizes the autoclipping of the bandpass filtered audio files, helping identify the start and end of breath.
+   - **Visualise_Audioclipping.ipynb**: Visualizes the Audioclipping of the bandpass filtered audio files, helping identify the start and end of breath.
    - **Visualise_Spectrogram.ipynb**: Visualizes the spectrogram of the audio files before and after applying the bandpass filter. Spectrograms are plotted in the frequency domain.
 
 3. **Feature_Engineering**: This folder contains the Jupyter Notebook `Feature_Extractor.ipynb`, which provides a feature extraction pipeline specifically designed for analyzing audio data captured by the SpiroMask. The notebook facilitates the extraction of various features from the SpiroMask audio signals, enabling in-depth analysis of respiratory patterns and estimation of lung health.
@@ -20,3 +20,5 @@ This GitHub repository, SpiroMask_DIY, is dedicated to the SpiroMask project, wh
 #
 
 Please refer to the respective folders and files for more detailed information on each aspect of the SpiroMask DIY project. Enjoy exploring and building your own SpiroMask!
+
+#

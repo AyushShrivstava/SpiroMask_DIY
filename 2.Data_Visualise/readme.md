@@ -17,10 +17,10 @@ This notebook visualizes the envelope of the audio signals after applying the ba
 
 Link to Notebook -> https://github.com/AYUSHs799/SpiroMask_DIY/blob/main/2.Data_Visualise/3.Visualize_Envelope.ipynb
 
-## 4. **Visualise_Autoclipping.ipynb**: 
-This notebook focuses identifying the start and end points of each breath within the audio signals. By visualizing the autoclipping effects, users can accurately detect and demarcate breath cycles. Autoclipping helps in distinguishing breath-related components from other background noises, facilitating a more precise analysis of respiratory patterns. The notebook applies autoclipping visualization to all audio files in the SpiroMask_Audio_Samples folder, enabling users to gain insights into breath segmentation and enhance their understanding of respiratory dynamics.
+## 4. **Visualise_Audioclipping.ipynb**: 
+This notebook focuses identifying the start and end points of each breath within the audio signals. By visualizing the Audioclipping effects, users can accurately detect and demarcate breath cycles. Audioclipping helps in distinguishing breath-related components from other background noises, facilitating a more precise analysis of respiratory patterns. The notebook applies Audioclipping visualization to all audio files in the SpiroMask_Audio_Samples folder, enabling users to gain insights into breath segmentation and enhance their understanding of respiratory dynamics.
 
-Link to Notebook -> https://github.com/AYUSHs799/SpiroMask_DIY/blob/main/2.Data_Visualise/4.Visualize_Autoclipping.ipynb
+Link to Notebook -> https://github.com/AYUSHs799/SpiroMask_DIY/blob/main/2.Data_Visualise/4.Visualize_Audioclipping.ipynb
 
 ## 5. **Visualise_Spectrogram.ipynb**: 
 This notebook generates spectrograms, which provide a comprehensive frequency-domain representation of the audio signals. It showcases the spectral content over time, both before and after applying the bandpass filter. All the previous visualizations are also applied on the filtered audio signal making this file the one_stop visualize all notebook. Additionally, the notebook creates a PDF file containing spectrograms for all audio files in the SpiroMask_Audio_Samples folder, facilitating a holistic view of the audio data.
