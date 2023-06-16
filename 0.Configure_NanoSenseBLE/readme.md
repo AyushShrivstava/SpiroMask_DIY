@@ -14,8 +14,8 @@
 
    - Locate the file "ei_microphone.cpp" in the "src/sensors" folder of the firmware.  
 
-   - Open the file in a text editor and change the value of "PDM.setGain" to 40. Update both occurrences of this line in the file. 
-
+   - Open the file in a text editor and change the value of `PDM.setGain` to 40. Update both occurrences of this line in the file. 
+s
    - Save the file after making the changes.   
 
 3. Build and flash the modified firmware to your Arduino Nano board by following the instructions provided in the [firmware-arduino-nano-33-ble-sense](https://github.com/edgeimpulse/firmware-arduino-nano-33-ble-sense) repository. If you encounter any issues, it is recommended to use the Linux path for building the firmware.
