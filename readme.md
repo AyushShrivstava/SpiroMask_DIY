@@ -1,6 +1,8 @@
-# SpiroMask_DIY Repository
+# SpiroMask
 
-This GitHub repository, SpiroMask_DIY, is dedicated to the SpiroMask project, which aims to provide a do-it-yourself solution for estimating lung health. The repository is organized into four main folders:
+This repository introduces SpiroMask, a system that incorporates a microphone into consumer-grade masks for continuous lung health monitoring. By capturing audio signals of the user's breathing and extracting relevant features, SpiroMask enables the estimation of lung health using machine learning. It offers a low-cost, portable, and user-friendly solution for regular lung health monitoring, addressing the global need for prognoses and early detection of respiratory illnesses.
+
+The repository is organized into four main folders:
 
 1. **Data**: This folder contains essential raw data files for the SpiroMask project. It includes two subfolders:
    - **Ground_Truth**: This subfolder holds data related to the participants who took part in the SpiroMask project. It includes information such as age, weight, height, FEV1, FVC, PEF, lung ailments, and more.
