@@ -24,4 +24,4 @@ Alternatively, you can use the pre-built firmware files provided in the "2.PreBu
 
 By following these steps, you will be able to configure your Arduino Nano Sense BLE to work seamlessly with Edge Impulse.
 
-### **Enjoy working with Edge Impulse!**
+### **Enjoy working with your Arduino Nano device !**
